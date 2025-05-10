@@ -27,3 +27,8 @@ proot-distro login ubuntu
 apt-get update 
 apt-get install xfce4
 exit
+
+
+pkg install firefox
+pkg install chromium 
+pkg install tur-repo 
