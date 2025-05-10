@@ -25,3 +25,9 @@ proot-distro login ubuntu
 apt-get update 
 apt-get install xfce4
 exit
+
+
+Install apps
+
+pkg install tur-repo
+pkg install chromium -y
