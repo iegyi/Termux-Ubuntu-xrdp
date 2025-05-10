@@ -31,3 +31,5 @@ Install apps
 
 pkg install tur-repo
 pkg install chromium -y
+pkg install code-oss
+
