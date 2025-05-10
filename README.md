@@ -34,3 +34,5 @@ pkg install chromium
 pkg install code-oss
 pkg install tur-repo 
 pkg install gimp
+pkg search vlc
+pkg install transmission-gtk
