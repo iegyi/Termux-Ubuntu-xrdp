@@ -1,13 +1,10 @@
 # Termux-Ubuntu-xrdp
 
 proot-distro login ubuntu
+......
 
-nano ../usr/etc/xrdp/xrdp.ini
 
-vncserver -xstartup ../usr/bin/startxfce4 -listen tcp :1
-
-vncserver -start
-
+##
 kill pids
 xrdp -k
 vncserver -xstartup ../usr/bin/startxfce4 -listen tcp :1 -kill :1
@@ -16,6 +13,11 @@ vncserver -xstartup ../usr/bin/startxfce4 -listen tcp :1 -kill :1
 ##
 pkg install xfce4 xfce4-goodies tigervnc xrdp 
 
+nano ../usr/etc/xrdp/xrdp.ini
+
+vncserver -xstartup ../usr/bin/startxfce4 -listen tcp :1
+
+vncserver -start
 
 another way of installing
 
