@@ -33,3 +33,4 @@ pkg install firefox
 pkg install chromium 
 pkg install code-oss
 pkg install tur-repo 
+pkg install gimp
