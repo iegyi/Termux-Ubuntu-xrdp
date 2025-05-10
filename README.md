@@ -28,7 +28,8 @@ apt-get update
 apt-get install xfce4
 exit
 
-
+install apps
 pkg install firefox
 pkg install chromium 
+pkg install code-oss
 pkg install tur-repo 
