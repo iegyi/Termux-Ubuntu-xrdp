@@ -36,3 +36,5 @@ pkg install tur-repo
 pkg install gimp
 pkg search vlc
 pkg install transmission-gtk
+pkg install evince
+ 
