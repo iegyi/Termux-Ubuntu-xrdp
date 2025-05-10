@@ -13,6 +13,9 @@ xrdp -k
 vncserver -xstartup ../usr/bin/startxfce4 -listen tcp :1 -kill :1
 
 
+##
+pkg install xfce4 xfce4-goodies tigervnc xrdp 
+
 
 another way of installing
 
