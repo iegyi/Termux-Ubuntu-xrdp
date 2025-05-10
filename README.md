@@ -15,6 +15,8 @@ pkg install xfce4 xfce4-goodies tigervnc xrdp
 
 nano ../usr/etc/xrdp/xrdp.ini
 
+xrdp
+
 vncserver -xstartup ../usr/bin/startxfce4 -listen tcp :1
 
 vncserver -start
